@@ -1,33 +1,36 @@
 
 ---
 
-## ✅ Backend: `Notes-Backend/README.md`
+### 📁 `Notes-Backend/README.md`
 
 ```markdown
-# Notes App – Backend (REST API)
+# 📝 Notes App – Backend (Express.js REST API)
 
-This is a simple Express.js backend that provides RESTful APIs to manage notes.
+This is a Node.js + Express backend that provides REST APIs to manage notes with basic in-memory storage.
+
+---
+
+## 🚀 Features
+
+- RESTful API endpoints
+- Create, read, update, and delete notes
+- Supports timestamps for created and updated notes
+
+---
 
 ## ⚙️ Tech Stack
 
 - Node.js
 - Express.js
 - CORS
-- Body-Parser (optional in older Express)
+- Body-Parser
 
-## 📌 Endpoints
+---
 
-| Method | Route           | Description            |
-|--------|------------------|------------------------|
-| GET    | `/notes`         | Get all notes          |
-| GET    | `/notes/:id`     | Get a specific note    |
-| POST   | `/notes`         | Create a new note      |
-| PUT    | `/notes/:id`     | Update a note          |
-| DELETE | `/notes/:id`     | Delete a note          |
+## 📦 Getting Started
 
-## 🛠 Setup Instructions
+### 1. Clone the repository
 
-1. **Clone the backend repo**
-   ```bash
-   git clone https://github.com/Shrey5112/Notes-Backend.git
-   cd Notes-Backend
+```bash
+git clone https://github.com/Shrey5112/Notes-Backend.git
+cd Notes-Backend
