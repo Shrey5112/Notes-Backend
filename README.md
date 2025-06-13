@@ -1,9 +1,3 @@
-
----
-
-### 📁 `Notes-Backend/README.md`
-
-```markdown
 # 📝 Notes App – Backend (Express.js REST API)
 
 This is a Node.js + Express backend that provides REST APIs to manage notes with basic in-memory storage.
@@ -27,13 +21,17 @@ This is a Node.js + Express backend that provides REST APIs to manage notes with
 
 ---
 
+## 📡 API Endpoints
+
 | Method | Endpoint     | Description             |
-| ------ | ------------ | ----------------------- |
+|--------|--------------|-------------------------|
 | GET    | `/notes`     | Get all notes           |
 | GET    | `/notes/:id` | Get a single note       |
 | POST   | `/notes`     | Add a new note          |
 | PUT    | `/notes/:id` | Update an existing note |
 | DELETE | `/notes/:id` | Delete a note           |
+
+---
 
 ## 📦 Getting Started
 
