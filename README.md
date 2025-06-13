@@ -27,10 +27,20 @@ This is a Node.js + Express backend that provides REST APIs to manage notes with
 
 ---
 
+| Method | Endpoint     | Description             |
+| ------ | ------------ | ----------------------- |
+| GET    | `/notes`     | Get all notes           |
+| GET    | `/notes/:id` | Get a single note       |
+| POST   | `/notes`     | Add a new note          |
+| PUT    | `/notes/:id` | Update an existing note |
+| DELETE | `/notes/:id` | Delete a note           |
+
 ## 📦 Getting Started
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Shrey5112/Notes-Backend.git
 cd Notes-Backend
+npm install
+node index.js
